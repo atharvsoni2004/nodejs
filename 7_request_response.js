@@ -9,7 +9,7 @@ var server = http.createServer(function(request,response)
     {
         output = '<h1>Home</h1>';
     }    
-    else if(url == "/fruits")
+    else if(url == "fruits")
     {
         output = "<ol><li>Apple</li><li>Banana</li><li>Cherry</li><li>Date</li><li>Elderberry</li></ol>";
     }
