@@ -1,5 +1,7 @@
-const {add,sub,mul, name}=require('./operator')
-console.log(add(5,5))
-console.log(sub(5,5))
-console.log(mul(5,5))
-console.log(name)
+// var data = require('./names')
+// console.log(data.database);
+// console.log(data.mobile);
+// console.log(data.name);
+
+const add = require('./names');
+console.log(add(5,5));
